@@ -9,10 +9,10 @@ int	main(void)
 	i = 1;
 	while (1)
 	{
-		text = "Ahmet Mert Kalaman \n42 Intra \033[31;1m[ ahkalama ]\n";
-		printf("\033[48;5;%dm\033[38;5;%dm%s\033[0m ", i, (i + 8) % 256, text);
+		text = "Ahmet Mert Kalaman 42 Intra [ ahkalama ]";
+		printf("\033[48;5;%dm\033[38;5;%dm%s\033[0m ", i, i, text);
 		printf("\r");
-		i = (i + 1) % 256;
+		i = (i + 1);
 	}
 
 	// ASCII COLORS (Basa main ekle ve sadece yorum satırındakileri yazdir)
