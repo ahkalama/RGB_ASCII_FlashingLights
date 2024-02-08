@@ -15,7 +15,7 @@ int	main(void)
 		i = (i + 1);
 	}
 
-	// ASCII COLORS (Basa main ekle ve sadece yorum satırındakileri yazdir)
+	// ASCII COLORS (main ekle ve sadece yorum satırındakileri yazdir)
 	
 	// int i = -1;
 
